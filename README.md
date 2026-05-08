@@ -15,22 +15,7 @@ This is in early development, so please check back. Thank you.
 
 --------------------------------------------
 RAYLIB IS A DEPENDENCY
-
-CHANGELOG IN WIKI, FIRST PRERELEASE OUT NOW!!!!!!!!!!!
-
-Includes: 
-
--Definable Player for easy use
-
--Player stats/status/states
-
--Player limbs with health (adding breakable bones soon)
-
-and more
-
-Currently, you must define your own functions, but I am on that right now!!! (Pointers are scary)
-
-//-----------------------------------
+--------------------------------------------
 
 This is my personal project, along with my game I am making, "Love Of The Sun," under my lunar archive series.
 I am also developing RPE (Rams Photo Editor), which is also in Raylib. 
