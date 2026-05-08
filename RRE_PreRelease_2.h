@@ -31,6 +31,7 @@ typedef struct Player {                     //glorrified rectangle btw
 //player basic stats 
 //-----------------------------------------------------------------------------------
 typedef struct PlayerStat {
+    int Entity_ID;            //ID number 
     float Health;             //Player Health stat
     int Attack;             //Player Attack stat 
     int Defense;            //Player defense stat
