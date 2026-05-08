@@ -1,5 +1,8 @@
 #Rams Raylib Engine
 
+THE USE OF AI ON ANY OF MY PROJECTS OR CREATIONS IS NEVER GONNA HAPPEN
+I AM VERY AGAINST THE USE OF GEN AI
+
 Currently a WIP, please check back 
 
 My game engine is built in C with Raylib 
