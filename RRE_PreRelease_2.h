@@ -153,7 +153,7 @@ typedef bool IsMoving;              //is object moving
 //add shop here, old shop lowkey ass
 
 //--------------------------------------------------------------------------------
-//object interactions (put in a struct)
+//object interactions (put in a struct) this part a WIP
 //--------------------------------------------------------------------------------
 typedef bool IsObjectHit;       //is object hit 
 typedef bool IsObjectDestroyed; //is object destroyed 
@@ -164,7 +164,7 @@ typedef bool CanInteractWithObjects; //can the object interact with other object
 typedef bool IsRendered;              //is object rendered 
 
 typedef struct ObjectStat {
-    float FallDamage;             //basiclly how hard will it be if you fall on it 
+    float FallDamage;             //basically, how hard will it be if you fall on it 
     float Bounce;                 //how bouncy / boing boing :3 
     bool CanCrush;                //can it crush player 
 } ObjectStat;
