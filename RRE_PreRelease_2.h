@@ -1,14 +1,14 @@
-// all code was and has been written by hand by RamMunchingDev, 0 use of AI was used in the code so worry not. AI belongs no where in coding 
-// This is (pre)release 0.0.1, many things will be altered, my typedefs will be put into a struct for ease of use while some may not, IE burn damage
-// This is because a function would be to annoying to make with BurnTick and such so I will make a example for damaging
-// even such I will move burn status to a struct and you will need to define your own functions because im still learning how to do that sorry
-// please be kind this is my first lib
+// all code was and has been written by hand by RamMunchingDev, 0 use of AI was used in the code, so worry not. AI belongs nowhere in coding 
+// This is (pre)release 0.0.1, many things will be altered, my typedefs will be put into a struct for ease of use, while some may not, i.e., burn damage
+// This is because a function would be too annoying to make with BurnTick and such, so I will make an example for damaging
+// even so, I will move burn status to a struct, and you will need to define your own functions because im still learning how to do that, sorry
+//Please be kind, this is my first lib
 
-//FUNCTIONS WILL BE ADDED CURRENTLY IT IS JUST TYPEDEF AND STRUCT, I WILL BE FIXING THAT IM JUST LEARNING HOW TO DO FUNCTIONS
+//FUNCTIONS WILL BE ADDED. CURRENTLY IT IS JUST TYPEDEF AND STRUCT, I WILL BE FIXING THAT IM JUST LEARNING HOW TO DO FUNCTIONS
 
-//thats all.  
+//that's all.  
 
-//May 8th 2026 as of this file update
+//May 8th 2026, as of this file update
 
 #include "raylib.h"
 #include <stdbool.h>       //removed Raymath of now and replaced it with bool so people do not need to include themselves 
@@ -27,10 +27,10 @@ typedef struct Player {                     //glorrified rectangle btw
     int height;         //player height
 } Player;
 
+//----------------------------------------------------------------------------------
+//player basic stats 
+//-----------------------------------------------------------------------------------
 typedef struct PlayerStat {
-    //------------------------------
-    //player basic stats 
-    //------------------------------
     float Health;             //Player Health stat
     int Attack;             //Player Attack stat 
     int Defense;            //Player defense stat
@@ -78,24 +78,25 @@ typedef bool IsBagOpen;             //is the bag/inv open
     //---------------------------------------------------------------------
 typedef struct ItemID {
  int IDNUMBER;                      //id number for an item 
- int ID_SLOT;                       //which number slot this item is in IE: ItemSlot 1 = ID_SLOT
+ int ID_SLOT;                       //which number slot this item is in, i.e., ItemSlot 1 = ID_SLOT
 } ItemID;
 typedef int ItemSlot;               //the slot of which an item is under 
     
 //-----------------------------------------------------------------------------------------------------
 //Will be put under a struct "Inflicts"
 //------------------------------------------------------------------------------------------------------
-typedef float BurnDamage;             //Amount of damage burning inflicts
-typedef int BurnTime;               //how long burning will last
-typedef int BurnTick;               //how many ticks should go by for the damage 
-typedef bool OnFire;                //is the player on fire?
-    //---------------
-typedef float BleedDamage;            //Damage inflicted when bleeding 
-typedef int BleedTick;              //how long bleeding will last 
-    //---------------
-typedef float FreezeDamage;         //Freezing damage 
-typedef int FreezeTime;             //how long till you freeze 
-    
+
+typedef struct DamageStatus {
+float BurnDamage;             //Amount of damage burning inflicts
+int BurnTime;               //how long burning will last
+int BurnTick;               //how many ticks should go by for the damage 
+//---------------
+float BleedDamage;            //Damage inflicted when bleeding 
+int BleedTick;              //how long bleeding will last 
+//---------------
+float FreezeDamage;         //Freezing damage 
+int FreezeTime;             //how long till you freeze 
+} DamageStatus;
 //------------------------------------------------------------------------------------------------------
 //PLAYER LIMB HEALTH
 //------------------------------------------------------------------------------------------------------
