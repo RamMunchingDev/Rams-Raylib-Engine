@@ -1,12 +1,19 @@
 #Rams Raylib Engine
 
-THE USE OF AI ON ANY OF MY PROJECTS OR CREATIONS IS NEVER GONNA HAPPEN
-I AM VERY AGAINST THE USE OF GEN AI
+***THE USE OF AI ON ANY OF MY PROJECTS OR CREATIONS IS NEVER GONNA HAPPEN
+I AM VERY AGAINST THE USE OF GEN AI***
 
-Currently a WIP, please check back 
+Rams Raylib Engine is an engine I (Ram) am developing as a layer on top of Raylib. 
 
-My game engine is built in C with Raylib 
+Raylib is the core of my engine; it will do all the things required for a 2d/3d game.
 
+RRE is a "2.5D" library, which allows people to easily define functions or data that many developers use or need. 
+
+Devs can use my predefined structs as Player (A glorified rectangle) struct, PlayerStat (health, attack, defense), and more.
+
+This is in early development, so please check back. Thank you.
+
+--------------------------------------------
 RAYLIB IS A DEPENDENCY
 
 CHANGELOG IN WIKI, FIRST PRERELEASE OUT NOW!!!!!!!!!!!
