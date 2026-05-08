@@ -1,5 +1,9 @@
 #Rams Raylib Engine
 
+--------------------------------------------
+RAYLIB IS A DEPENDENCY
+--------------------------------------------
+
 ***THE USE OF AI ON ANY OF MY PROJECTS OR CREATIONS IS NEVER GONNA HAPPEN
 I AM VERY AGAINST THE USE OF GEN AI***
 
@@ -13,9 +17,7 @@ Devs can use my predefined structs as Player (A glorified rectangle) struct, Pla
 
 This is in early development, so please check back. Thank you.
 
---------------------------------------------
-RAYLIB IS A DEPENDENCY
---------------------------------------------
+<------------------------------------------------------------------->
 
 This is my personal project, along with my game I am making, "Love Of The Sun," under my lunar archive series.
 I am also developing RPE (Rams Photo Editor), which is also in Raylib. 
