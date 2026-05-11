@@ -15,10 +15,6 @@ Devs can use my "defined" structs as Player (A glorified rectangle) struct, Play
 
 This is in early development, so please check back. Thank you.
 
-<-------------------------------------------------------------------------->
-
-Also, I will be converting this to 2 different languages I am either developing or co-developing (Z-Delta by astronand, and C= (C equal) by me)
-
 <------------------------------------------------------------------->
 
 This is my personal project, along with my game I am making, "Love Of The Sun," under my lunar archive series.
