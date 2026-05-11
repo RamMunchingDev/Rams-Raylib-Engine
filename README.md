@@ -11,7 +11,7 @@ Raylib is the core of my engine; it will do all the things required for a 2d/3d 
 
 RRE is a "2.5D" library, which allows people to easily define functions or data that many developers use or need. 
 
-Devs can use my predefined structs as Player (A glorified rectangle) struct, PlayerStat (health, attack, defense), and more.
+Devs can use my "defined" structs as Player (A glorified rectangle) struct, PlayerStat (health, attack, defense), and more.
 
 This is in early development, so please check back. Thank you.
 
