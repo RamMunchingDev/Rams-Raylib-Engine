@@ -1,7 +1,5 @@
 --------------------------------------------
 RAYLIB IS A DEPENDENCY
-
-https://www.raylib.com/
 --------------------------------------------
 
 ***THE USE OF AI ON ANY OF MY PROJECTS OR CREATIONS IS NEVER GONNA HAPPEN
