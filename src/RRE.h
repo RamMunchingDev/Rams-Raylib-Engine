@@ -8,7 +8,9 @@
 
 //that's all.  
 
-//May 8th 2026, as of this file update
+//May 13th 2026, as of this file update
+//fixed grammar and added a few notes 
+
 
 #include "raylib.h"
 #include <stdbool.h>       //removed Raymath of now and replaced it with bool so people do not need to include themselves 
@@ -41,7 +43,7 @@ typedef struct PlayerStat {
 typedef struct PlayerLevel {
     float Moral;              //player Moral stat/sanity
     int Level;              //Player Leveling stats / Player Level stat
-    float XP;                 //points earned towards level // Player XP total 
+    float XP;                 //points earned towards level / Player XP total 
 } PlayerLevel;
     //------------------------------------------------------------------------------------------------------
     //player movement 
@@ -71,8 +73,13 @@ typedef struct PlayerStatus {
     //---------------------------------------------------------------------
     //Bag WIP
     //---------------------------------------------------------------------
-typedef int BagSlotCount;           //amount of slots in bag/inv 
+typedef int BagStorage;             //how much room is the bag 
 typedef bool IsBagOpen;             //is the bag/inv open 
+
+typedef struct BagSlots {            //WILL REVISE
+    int ID_ITEM;                    //Which item is in the slot (will revise)
+    bool Holding;                   //are you holding the item
+} BagSlots;
     
     //---------------------------------------------------------------------
     //ITEM ID IS WIP 
@@ -123,13 +130,14 @@ typedef struct EnemyPosition {
 } EnemyPosition;
 
 typedef struct EnemyStat {
-    float Health;           //amount of health enemy has / health stat / hp 
+    float Health;           //amount of health enemy has / health stat/hp 
     float Attack;           //Amount of damage the enemy does
     float Defense;          //Amount of damage resisted 
     float Speed;            //Enemy movement speed
     float XpDropped;        //Xp dropped on death 
 } EnemyStat;
 
+//will put under a struct 
 typedef bool CanBurn;           //Can the enemy burn player or objects
 typedef bool CanBleed;          //can the enemy inflict bleeding 
 typedef bool CanWet;            //Can the enemy make things wet...
@@ -145,7 +153,7 @@ typedef bool IsAir;                 //is object air/can phase through
 typedef bool IsHot;                 //is object able inflict burn damage 
 typedef bool IsCold;                //is Object cold
 typedef bool IsWet;                 //is object wet 
-typedef bool IsDry;                 //is object dry, for what ever purpose
+typedef bool IsDry;                 //is object dry, for whatever purpose
 typedef bool IsSharp;               //is object able to inflict bleed 
 typedef bool IsMoving;              //is object moving 
 //---------------------------------------------------------------------------------
@@ -155,7 +163,7 @@ typedef bool IsMoving;              //is object moving
 //add shop here, old shop lowkey ass
 
 //--------------------------------------------------------------------------------
-//object interactions (put in a struct) this part a WIP
+//object interactions (put in a struct) this part is a WIP
 //--------------------------------------------------------------------------------
 typedef bool IsObjectHit;       //is object hit 
 typedef bool IsObjectDestroyed; //is object destroyed 
