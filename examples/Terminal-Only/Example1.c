@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include "RRE.h"
 
+//warning this may not work, just have Raylib even tho you are using the terminal 
+
+
 int main() {
 PlayerStat player = {0};        //player struct 
 player.Entity_ID = 1;               //player is ID 1
