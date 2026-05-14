@@ -179,4 +179,20 @@ typedef struct ObjectStat {
     float Bounce;                 //how bouncy / boing boing :3 
     bool CanCrush;                //can it crush player 
 } ObjectStat;
+
+//------------------------------------------------------------------------------------------------------
+// Terminal
+//------------------------------------------------------------------------------------------------------
+void TermClear() {                              //(linux only) clears the terminal example > TermClear();
+    system("clear");
+}
+void Quit() {                                           //quits engine/game/software
+    exit;
+}
+void ListDir() {                                    //(linux only) Lists current Dir
+    char List[8];
+    strcpy(List, "ls -la");
+    system(List);
+}
+
 #endif //RAMENG
