@@ -1,5 +1,5 @@
 --------------------------------------------
-RAYLIB IS A DEPENDENCY
+RAYLIB WILL BE A DEPENDENCY (INCLUDE IT FOR NOW AS THE HEADER REQUIRES IT)
 --------------------------------------------
 
 ***THE USE OF AI ON ANY OF MY PROJECTS OR CREATIONS IS NEVER GONNA HAPPEN
