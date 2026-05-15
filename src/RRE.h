@@ -16,6 +16,7 @@
 #include <stdbool.h>       //removed Raymath of now and replaced it with bool so people do not need to include themselves 
 #include <stdlib.h>
 #include <math.h> 
+#include "raylib.h"
 
 #ifndef RAMENG_H
 #define RAMENG_H
