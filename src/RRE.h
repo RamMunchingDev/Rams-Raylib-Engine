@@ -12,7 +12,7 @@
 //added core--math and a bit of more will split into multiple H files for cleaner look eventually 
 
 
-/* DELETE THE TERMINAL SECTION FROM BOTH HEADERS IT IS BROKEN */
+//hot fixed the file issue 
 
 
 #include <stdbool.h>       //removed Raymath of now and replaced it with bool so people do not need to include themselves 
@@ -257,7 +257,7 @@ bool IsRendered;              //is object rendered
 void TermClear();                               //clear terminal 
 void Quit();                                    //quit terminal 
 void ListDir();                                 //list directories 
-void DataSave(const char *fptr, char Write[]);  //save data
+void DataSave(const char *file, char Write[]);  //save data
 
 //==================================================
 //TEMP NAME
