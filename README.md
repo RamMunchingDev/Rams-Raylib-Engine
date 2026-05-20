@@ -1,3 +1,8 @@
+-------------------------------
+I WANT YOU! TO HELP ME DEVELOP PROJECTS SUCH AS THESE
+
+IF YOU ARE WILLING TO JOIN ME, USE THE EMAIL IN MY BIO AND ASK TO JOIN!!
+
 --------------------------------------------
 RAYLIB WILL BE A DEPENDENCY (INCLUDE IT FOR NOW AS THE HEADER REQUIRES IT)
 --------------------------------------------
