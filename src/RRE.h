@@ -15,6 +15,7 @@
 
 #include <stdbool.h>       //removed Raymath of now and replaced it with bool so people do not need to include themselves 
 #include <stdlib.h>
+#include <string.h>
 #include <math.h> 
 #include "RREC.h"       //function defintion 
 
