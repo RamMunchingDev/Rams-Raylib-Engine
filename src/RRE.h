@@ -12,6 +12,8 @@
 //added core--math and a bit of more will split into multiple H files for cleaner look eventually 
 
 
+/* DELETE THE TERMINAL SECTION FROM BOTH HEADERS IT IS BROKEN */
+
 
 #include <stdbool.h>       //removed Raymath of now and replaced it with bool so people do not need to include themselves 
 #include <stdlib.h>
