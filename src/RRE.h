@@ -8,7 +8,7 @@
 
 //that's all.  
 
-//May 18th 2026, as of this file update
+//May 20th 2026, as of this file update
 //added core--math and a bit of more will split into multiple H files for cleaner look eventually 
 
 
@@ -247,13 +247,18 @@ bool IsRendered;              //is object rendered
 
 //add things here
 
-//------------------------------------------------------------------------------------------------------
-// Terminal/Files
-//------------------------------------------------------------------------------------------------------
+//==================================================
+//TERMINAL
+//==================================================
 //fptr means file name/path
 void TermClear();                               //clear terminal 
 void Quit();                                    //quit terminal 
 void ListDir();                                 //list directories 
 void DataSave(const char *fptr, char Write[]);  //save data
+
+//==================================================
+//TEMP NAME
+//==================================================
+//will add to this
 
 #endif //RAMENG
