@@ -1,5 +1,5 @@
 /*this is where all functions in the core of the engine will be defined
-today is May 19th 2026*/
+today is May 20th 2026 -- quick hot fix*/
 
 #ifndef RAMCORE_H
 #define RAMCORE_H
@@ -63,9 +63,10 @@ void ListDir() {                                    // Lists current Dir
     system(List);
 }
 
-void DataSave(const char *fptr, char Write[]){
+void DataSave(const char *file, char Write[]){
     TermClear();
-    fptr = fopen("data/test.txt", "w");
+    FILE *fptr;
+    fptr = fopen(file, "w");
     rewind(fptr);
     fprintf(fptr, "----Data----");
     fprintf(fptr, "\n%s", Write);
